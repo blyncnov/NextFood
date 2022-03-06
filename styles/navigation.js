@@ -48,6 +48,10 @@ export const NavigationColumn = styled.div`
   }
 
   @media (max-width: 1000px) {
+    max-width: 95%;
+  }
+
+  @media (max-width: 1000px) {
     .mobile {
       display: none;
     }
