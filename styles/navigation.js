@@ -126,12 +126,16 @@ export const DetailsCardBox = styled.div`
   .details__box__inner h1,
   .details__box__inner p {
     text-align: start;
-    color: #333333;
+    color: #090b24;
   }
 
   @media (max-width: 760px) {
     .details__box__inner {
       width: 60%;
+    }
+
+    .details__box__inner h1 {
+      font-size: 1rem;
     }
 
     .details__box__inner p {
