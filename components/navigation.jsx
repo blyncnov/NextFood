@@ -59,7 +59,8 @@ const Navigation = () => {
                                     <div className="details__box__inner">
                                         <h1>NEXTFOOD</h1>
                                         <br />
-                                        <p>Lorem ipsum dolor sit amet adipisicing elit. Sapiente fuga nisi rerum iusto intro.</p>
+                                        <p>Lorem ipsum dolor sit amet adipisicing elit.Sapiente fuga nisi rerum iusto intro
+                                            Lorem ipsum dolor sit amet adipisicing elit.Sapiente fuga nisi rerum iusto intro.</p>
                                     </div>
                                 </DetailsCardBox>
 

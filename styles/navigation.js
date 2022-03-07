@@ -120,7 +120,7 @@ export const DetailsCardBox = styled.div`
     height: 100vh;
     color: black;
     color: white;
-    padding: 1em 2em;
+    padding: 1em;
   }
 
   .details__box__inner h1,
@@ -132,6 +132,10 @@ export const DetailsCardBox = styled.div`
   @media (max-width: 760px) {
     .details__box__inner {
       width: 60%;
+    }
+
+    .details__box__inner p {
+      font-size: 12px;
     }
   }
 `;
