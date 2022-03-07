@@ -48,7 +48,7 @@ const Navigation = () => {
                                 </ListItem>
 
                                 <div onClick={isBarClickHandler} className="mobile__opening">
-                                    {open ? <TiTimes style={{ fontSize: "2em" }} /> : <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />}
+                                    {open ? <TiTimes style={{ fontSize: "1.5em" }} /> : <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />}
                                 </div>
 
                                 <div onClick={isClickHandler} className="mobile">
