@@ -31,8 +31,8 @@ const Navigation = () => {
                     <div className="nav__items__set">
                         <div className="logo__section__list">
 
-                            <div className="logo">
-                                <h2>NEXTFOOD</h2>
+                            <div className="logo" onClick={isClickHandler}>
+                                <h2 > NEXTFOOD</h2>
                             </div>
 
                             <div className="second">

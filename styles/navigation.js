@@ -129,8 +129,10 @@ export const DetailsCardBox = styled.div`
     color: #333333;
   }
 
-  @media (max-width: 1000px) {
-    display: none;
+  @media (max-width: 760px) {
+    .details__box__inner {
+      width: 60%;
+    }
   }
 `;
 
