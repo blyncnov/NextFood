@@ -133,10 +133,11 @@ export const DetailsCardBox = styled.div`
     .details__box__inner {
       width: 60%;
     }
-
+    
+    /* 
     .details__box__inner h1 {
       font-size: 1rem;
-    }
+    } */
 
     .details__box__inner p {
       font-size: 12px;
