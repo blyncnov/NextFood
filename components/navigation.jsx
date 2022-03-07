@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { BsFillFilterCircleFill } from 'react-icons/bs';
+import { TiTimes } from 'react-icons/ti';
 import { RiBarChartHorizontalLine } from "react-icons/ri"
 
 // styled components
@@ -47,7 +48,7 @@ const Navigation = () => {
                                 </ListItem>
 
                                 <div onClick={isBarClickHandler} className="mobile__opening">
-                                    <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />
+                                    {open ? <TiTimes style={{ fontSize: "2em" }} /> : <RiBarChartHorizontalLine style={{ fontSize: "1.5em" }} />}
                                 </div>
 
                                 <div onClick={isClickHandler} className="mobile">
