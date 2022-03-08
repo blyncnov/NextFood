@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const NavigationContainer = styled.div`
   width: 100%;
   background-color: transparent;
-  padding: 1.5em 1em;
+  padding: 1.5em 0;
   position: relative;
   /* background-color: rgb(19 27 77/0.8); */
 `;
@@ -48,7 +48,7 @@ export const NavigationColumn = styled.div`
   }
 
   @media (max-width: 1000px) {
-    max-width: 95%;
+    max-width: 90%;
   }
 
   @media (max-width: 1000px) {
