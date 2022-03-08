@@ -1,5 +1,6 @@
 // styled components
 import { HeaderContainer } from "../styles/header"
+import HeroSection from "./heroSection"
 
 // components
 import Navigation from "./navigation"
@@ -9,6 +10,7 @@ const Header = () => {
         <>
             <HeaderContainer>
                 <Navigation />
+                <HeroSection />
             </HeaderContainer>
 
         </>
