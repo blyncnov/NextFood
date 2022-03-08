@@ -64,43 +64,37 @@ export const NavigationColumn = styled.div`
   }
 `;
 
-export const ListItem = styled.ul`
-  display: flex;
-
-  li {
-    display: flex;
-    align-items: center;
-    margin-right: 1em;
-    font-weight: 500;
-    text-transform: capitalize;
-    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-      Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-  }
-
-  li:hover {
-    color: #4c4c4c;
-    transform: scale(1.1);
-  }
-
+export const ListItem = styled.div`
   @media (max-width: 760px) {
-    display: block;
     position: fixed;
     top: 0;
     left: ${({ open }) => (open ? "0" : "-100%")};
     width: 100%;
-    background-color: whitesmoke;
     height: 100vh;
+    background-color: transparent;
     transition: all 0.8s ease-in;
-    width: 50vw;
-    color: black;
+    width: 100%;
+  }
+`;
+
+export const ListItems = styled.ul`
+  display: flex;
+  gap: 1em;
+
+  li {
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  @media (max-width: 760px) {
+    display: block;
+    width: 50%;
+    background-color: whitesmoke;
+    height: 100%;
+    color: #090b24;
 
     li {
-      margin: 1em;
-      font-weight: 500;
+      padding: 1em;
     }
   }
 `;
@@ -112,7 +106,6 @@ export const DetailsCardBox = styled.div`
   width: 100%;
   background-color: rgba(0, 0, 0, 0.01);
   transition: all 0.8s ease-in;
-  width: 100%;
 
   .details__box__inner {
     width: 25vw;
@@ -129,15 +122,23 @@ export const DetailsCardBox = styled.div`
     color: #090b24;
   }
 
+  ul {
+    color: #333;
+  }
+
+  ul li {
+    margin: 1em 0;
+    font-weight: 700;
+  }
+
   @media (max-width: 760px) {
+    ul li {
+      font-size: 12px;
+    }
+
     .details__box__inner {
       width: 60%;
     }
-    
-    /* 
-    .details__box__inner h1 {
-      font-size: 1rem;
-    } */
 
     .details__box__inner p {
       font-size: 12px;
