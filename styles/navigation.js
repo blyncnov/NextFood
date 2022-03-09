@@ -93,7 +93,7 @@ export const ListItems = styled.ul`
 
   @media (max-width: 760px) {
     display: block;
-    width: 50%;
+    width: 70%;
     background-color: whitesmoke;
     height: 100%;
     color: #090b24;
@@ -149,7 +149,7 @@ export const DetailsCardBox = styled.div`
     }
 
     .details__box__inner {
-      width: 60%;
+      width: 75%;
     }
 
     .details__box__inner p {
