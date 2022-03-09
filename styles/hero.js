@@ -24,6 +24,11 @@ export const HeroContainerColumn = styled.div`
     border-radius: 5px;
   }
 
+  @media (max-width: 960px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
   @media (max-width: 760px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
