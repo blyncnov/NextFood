@@ -35,7 +35,7 @@ const Navigation = () => {
                         <div className="logo__section__list">
 
                             <div className="logo" onClick={isClickHandler}>
-                                <RiHaze2Line style={{ fontSize: "1.5em" }} />
+                                <RiHaze2Line style={{ fontSize: "2em" }} />
                                 <h2 > nextfood </h2>
                             </div>
 
