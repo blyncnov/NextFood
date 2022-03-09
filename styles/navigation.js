@@ -32,8 +32,7 @@ export const NavigationColumn = styled.div`
     cursor: pointer;
     transition: all 0.3s ease-in;
     text-transform: uppercase;
-    justify-content: center;
-    align-items: stretch;
+    align-items: center;
   }
 
   .logo:hover {
@@ -124,7 +123,7 @@ export const DetailsCardBox = styled.div`
     .log {
       display: flex;
       justify-content: start;
-      align-items: stretch;
+      align-items: center;
     }
   }
 
