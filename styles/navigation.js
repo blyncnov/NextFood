@@ -28,9 +28,12 @@ export const NavigationColumn = styled.div`
   }
 
   .logo {
-    display: block;
+    display: flex;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    text-transform: uppercase;
+    /* justify-content: space-between;
+    align-items: center; */
   }
 
   .logo:hover {
@@ -65,6 +68,7 @@ export const NavigationColumn = styled.div`
 `;
 
 export const ListItem = styled.div`
+  z-index: 9999999;
   @media (max-width: 760px) {
     position: fixed;
     top: 0;
@@ -78,6 +82,7 @@ export const ListItem = styled.div`
 `;
 
 export const ListItems = styled.ul`
+  z-index: 9999999;
   display: flex;
   gap: 1em;
 
@@ -106,6 +111,7 @@ export const DetailsCardBox = styled.div`
   width: 100%;
   background-color: rgba(0, 0, 0, 0.01);
   transition: all 0.8s ease-in;
+  z-index: 9999999;
 
   .details__box__inner {
     width: 25vw;
@@ -114,6 +120,12 @@ export const DetailsCardBox = styled.div`
     color: black;
     color: white;
     padding: 1em;
+
+    .log {
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: center;
+    }
   }
 
   .details__box__inner h1,

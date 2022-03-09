@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { BsFillFilterCircleFill } from 'react-icons/bs';
 import { FaTimes } from 'react-icons/fa';
+import { RiHaze2Line } from "react-icons/ri";
 import { RiBarChartHorizontalLine } from "react-icons/ri"
 
 // styled components
@@ -34,7 +35,8 @@ const Navigation = () => {
                         <div className="logo__section__list">
 
                             <div className="logo" onClick={isClickHandler}>
-                                <h2 > NEXTFOOD</h2>
+                                <h2><RiHaze2Line style={{ fontSize: "1.5em" }} /></h2>
+                                <h2 > nextfood </h2>
                             </div>
 
                             <div className="second">
@@ -59,7 +61,10 @@ const Navigation = () => {
 
                                 <DetailsCardBox click={click} onClick={isClickHandler}>
                                     <div className="details__box__inner">
-                                        <h1>NEXTFOOD</h1>
+                                        <div className="log">
+                                            <h2><RiHaze2Line style={{ fontSize: "1.5em", color: "#203C83" }} /></h2>
+                                            <h1>NEXTFOOD</h1></div>
+
                                         <br />
                                         <p>Lorem ipsum dolor sit amet adipisicing elit.Sapiente fuga nisi rerum iusto intro
                                             Lorem ipsum dolor sit amet adipisicing elit.Sapiente fuga nisi rerum iusto intro.

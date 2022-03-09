@@ -16,7 +16,7 @@ export const HeroContainerColumn = styled.div`
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   gap: 2em;
-  padding: 2em 0;
+  padding: 2em 0 3em;
   align-items: center;
   justify-content: space-between;
 
