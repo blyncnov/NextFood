@@ -79,6 +79,19 @@ export const HeroContainerRow = styled.div`
     border: 2px solid white;
   }
 
+  .btn__display,
+  .text__display {
+    display: flex;
+
+    align-items: center;
+    gap: 2em;
+  }
+
+  .text__display {
+    gap: 1em;
+    justify-content: center;
+  }
+
   @media (max-width: 760px) {
     h1 {
       font-size: 1.8rem;
