@@ -14,7 +14,7 @@ const HeroSection = () => {
             <HeroContainer>
                 <HeroContainerColumn>
                     <HeroContainerRow>
-                        <h1>Corporate & Business Site Template By Ayro UI.</h1>
+                        <h1> Minimal Food Website Template By Blyncnov UI.</h1>
                         <br />
                         <p>We are a digital agency that helps brands to achieve their business outcomes. We see technology as a tool to create amazing things.</p>
                         <br />
