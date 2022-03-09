@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   background-color: #090b24;
   color: white;
-  height: 100vh;
+  width: 100%;
   background-image: linear-gradient(
     180deg,
     #3e7dff 0%,
