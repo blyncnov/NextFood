@@ -39,7 +39,7 @@ const Featured = () => {
                                     <BiDrink style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#F2AD44", clipPath: "circle()" }} />
                                 </div>
                                 <br />
-                                <br />
+
                                 <div className="feature__container">
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
@@ -69,7 +69,7 @@ const Featured = () => {
 
                                 </div>
                                 <br />
-                                <br />
+
                                 <div className="feature__container secondp">
                                     <MdFoodBank style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "green", clipPath: "circle()" }} />
                                     <div className="placement">
