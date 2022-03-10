@@ -31,17 +31,18 @@ const Featured = () => {
                                 <div className="feature__container">
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
-                                        <p>It still lives out that spirit today and invites others to join in seizing their dreams.</p>
+                                        <p>It still lives out that spirit today .</p>
                                     </div>
-                                    <RiCupFill style={{ fontSize: "5em", color: "#F2AD44" }} />
+                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
                                 </div>
+                                <br />
                                 <br />
                                 <div className="feature__container">
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
-                                        <p>It still lives out that spirit today and invites others to join in seizing their dreams.</p>
+                                        <p>It still lives out that spirit today .</p>
                                     </div>
-                                    <RiCupFill style={{ fontSize: "5em", color: "#F2AD44" }} />
+                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
                                 </div>
                             </div>
                         </FeaturedRows>
@@ -57,19 +58,20 @@ const Featured = () => {
                         <FeaturedRows>
                             <div>
                                 <div className="feature__container secondp">
-                                    <RiCupFill style={{ fontSize: "5em", color: "#F2AD44" }} />
+                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
-                                        <p>It still lives out that spirit today and invites others to join in seizing their dreams.</p>
+                                        <p>It still lives out that spirit today .</p>
                                     </div>
 
                                 </div>
                                 <br />
+                                <br />
                                 <div className="feature__container secondp">
-                                    <RiCupFill style={{ fontSize: "5em", color: "#F2AD44" }} />
+                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
-                                        <p>It still lives out that spirit today and invites others to join in seizing their dreams.</p>
+                                        <p>It still lives out that spirit today .</p>
                                     </div>
                                 </div>
                             </div>

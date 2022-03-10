@@ -17,6 +17,11 @@ export const FeaturedContainerColumn = styled.div`
     font-weight: 400;
   }
 
+  .featured__text h1 {
+    margin: 0.2em 0;
+    font-size: 2rem;
+  }
+
   .featured__text h4 {
     font-weight: 500;
     color: #f2ad44;
@@ -33,6 +38,10 @@ export const FeaturedContainerColumn = styled.div`
     .featured__text p {
       max-width: 100%;
       font-size: 14px;
+    }
+
+    .featured__text h1 {
+      font-size: 1.3rem;
     }
   }
 `;
