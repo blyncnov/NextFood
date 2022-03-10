@@ -1,7 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
 import { RiCupFill } from "react-icons/ri";
-import { BsCupStraw } from 'react-icons/bs'
+import { BiDrink } from 'react-icons/bi'
+import { GiDrinking } from 'react-icons/gi'
+import { MdFoodBank } from 'react-icons/md'
+
 
 import FeaturedPicture from "../public/assets/images/drinks.webp"
 
@@ -33,7 +36,7 @@ const Featured = () => {
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
                                     </div>
-                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
+                                    <BiDrink style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#F2AD44", clipPath: "circle()" }} />
                                 </div>
                                 <br />
                                 <br />
@@ -42,7 +45,7 @@ const Featured = () => {
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
                                     </div>
-                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
+                                    <GiDrinking style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "blue", clipPath: "circle()" }} />
                                 </div>
                             </div>
                         </FeaturedRows>
@@ -58,7 +61,7 @@ const Featured = () => {
                         <FeaturedRows>
                             <div>
                                 <div className="feature__container secondp">
-                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
+                                    <RiCupFill style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "red", clipPath: "circle()" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
@@ -68,7 +71,7 @@ const Featured = () => {
                                 <br />
                                 <br />
                                 <div className="feature__container secondp">
-                                    <RiCupFill style={{ fontSize: "3em", color: "#F2AD44" }} />
+                                    <MdFoodBank style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "green", clipPath: "circle()" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
