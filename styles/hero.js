@@ -82,14 +82,13 @@ export const HeroContainerRow = styled.div`
   .btn__display,
   .text__display {
     display: flex;
-
     align-items: center;
     gap: 2em;
   }
 
   .text__display {
-    gap: 1em;
     justify-content: center;
+    gap: 0.4em;
   }
 
   @media (max-width: 760px) {
