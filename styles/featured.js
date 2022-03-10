@@ -68,7 +68,7 @@ export const FeaturedRows = styled.div`
   }
 
   .placement h4 {
-    font-size: 1.5em;
+    font-size: 20px;
     margin: 0.5em 0;
     text-align: start;
     color: black;
