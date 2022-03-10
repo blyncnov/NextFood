@@ -11,6 +11,7 @@ const Header = () => {
             <HeaderContainer>
                 <Navigation />
                 <HeroSection />
+
             </HeaderContainer>
 
         </>

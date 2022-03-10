@@ -63,8 +63,8 @@ const Navigation = () => {
                                     <div className="details__box__inner">
                                         <div className="log">
                                             <h2><RiHaze2Line style={{ fontSize: "1.5em", color: "#203C83" }} /></h2>
-                                            <h1>NEXTFOOD</h1></div>
-
+                                            <h1>NEXTFOOD</h1>
+                                        </div>
                                         <br />
                                         <p>Lorem ipsum dolor sit amet adipisicing elit.Sapiente fuga nisi rerum iusto intro
                                             Lorem ipsum dolor sit amet adipisicing elit.Sapiente fuga nisi rerum iusto intro.
