@@ -5,7 +5,11 @@ export const NavigationContainer = styled.div`
   background-color: transparent;
   padding: 1.5em 0;
   position: relative;
-  /* background-color: rgb(19 27 77/0.8); */
+  background-color: ${({ scroll }) =>
+    scroll ? "rgb(19 27 77/0.8)" : "transparent"};
+  position: sticky;
+  top: 0;
+  z-index: 999998;
 `;
 
 export const NavigationColumn = styled.div`

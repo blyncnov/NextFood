@@ -1,10 +1,16 @@
 import styled from "styled-components";
+import bgImage from "../public/assets/images/dark.png";
 
 export const FeaturedContainer = styled.div`
   color: #333;
   width: 100%;
   padding: 1em 0;
   font-weight: 500;
+
+  background: url(${bgImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 export const FeaturedContainerColumn = styled.div`
@@ -51,6 +57,10 @@ export const FeaturedContainerRows = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: url(${bgImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   @media (max-width: 768px) {
     flex-direction: column;

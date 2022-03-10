@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { BsFillFilterCircleFill } from 'react-icons/bs';
 import { FaTimes } from 'react-icons/fa';
 import { RiHaze2Line } from "react-icons/ri";
@@ -18,6 +18,25 @@ import {
 const Navigation = () => {
     const [click, isClick] = useState(false)
     const [open, isOpen] = useState(false)
+    const [isScroll, setIsScroll] = useState(false);
+
+    useEffect(() => {
+
+        const isScrolledHandler = () => {
+            if (window.scrollY >= 50) {
+                setIsScroll(true)
+                console.log(window.scrollY);
+            }
+            else {
+                setIsScroll(false)
+            }
+        }
+
+        window.addEventListener("scroll", isScrolledHandler);
+
+        return () => window.removeEventListener("scroll", isScrolledHandler);
+
+    }, [])
 
     const isClickHandler = () => {
         isClick(!click)
@@ -29,7 +48,7 @@ const Navigation = () => {
 
     return (
         <>
-            <NavigationContainer>
+            <NavigationContainer scroll={isScroll}>
                 <NavigationColumn>
                     <div className="nav__items__set">
                         <div className="logo__section__list">
