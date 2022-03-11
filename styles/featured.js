@@ -43,7 +43,7 @@ export const FeaturedContainerColumn = styled.div`
   @media (max-width: 768px) {
     .featured__text p {
       max-width: 100%;
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .featured__text h1 {
@@ -106,7 +106,7 @@ export const FeaturedRows = styled.div`
     .placement p {
       color: grey;
       font-weight: 400;
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .start {
