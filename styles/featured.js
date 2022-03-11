@@ -92,6 +92,8 @@ export const FeaturedRows = styled.div`
   }
 
   @media (max-width: 768px) {
+    padding: 2em 1em;
+
     .placement {
       display: flex;
       flex-direction: column;
