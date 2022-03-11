@@ -33,7 +33,7 @@ const Featured = () => {
                             <div>
                                 <div className="feature__container">
                                     <div className="placement end">
-                                        <h4>Whiskey Sour</h4>
+                                        <h4>OZ Cointreau</h4>
                                         <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                     </div>
                                     <BiDrink style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#FFCB03", clipPath: "circle()" }} />
@@ -42,7 +42,7 @@ const Featured = () => {
 
                                 <div className="feature__container">
                                     <div className="placement end">
-                                        <h4>Whiskey Sour</h4>
+                                        <h4>OZ Boulevard</h4>
                                         <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                     </div>
                                     <GiDrinking style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#FFCB03", clipPath: "circle()" }} />
@@ -62,7 +62,7 @@ const Featured = () => {
                                 <div className="feature__container start">
                                     <RiCupFill style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#FFCB03", clipPath: "circle()" }} />
                                     <div className="placement">
-                                        <h4>Whiskey Sour</h4>
+                                        <h4>OZ Fresh lime juice</h4>
                                         <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                     </div>
 
@@ -72,7 +72,7 @@ const Featured = () => {
                                 <div className="feature__container start">
                                     <MdFoodBank style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#FFCB03", clipPath: "circle()" }} />
                                     <div className="placement">
-                                        <h4>Whiskey Sour</h4>
+                                        <h4>OZ Cranberry juice</h4>
                                         <p>The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
                                     </div>
                                 </div>
