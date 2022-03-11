@@ -28,6 +28,8 @@ const Featured = () => {
                             Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred.
                         </p>
                     </div>
+                    <br />
+                    <br />
                     <FeaturedContainerRows>
                         <FeaturedRows>
                             <div>
