@@ -50,12 +50,11 @@ const Featured = () => {
                             </div>
                         </FeaturedRows>
 
-                        <FeaturedRows>
+                        <FeaturedRows className="separated">
                             <Image
                                 layout="responsive"
                                 src={FeaturedPicture}
                                 alt="banner image" />
-                            {/* <BsCupStraw style={{ fontSize: "20em", color: "#F2AD44" }} /> */}
                         </FeaturedRows>
 
                         <FeaturedRows>

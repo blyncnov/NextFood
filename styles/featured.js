@@ -78,7 +78,7 @@ export const FeaturedRows = styled.div`
   }
 
   .placement h4 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0.5em 0;
     text-align: start;
     color: black;
@@ -93,6 +93,10 @@ export const FeaturedRows = styled.div`
 
   @media (max-width: 768px) {
     padding: 2em 1em;
+
+    .separated {
+      padding: 2em;
+    }
 
     .placement {
       display: flex;
