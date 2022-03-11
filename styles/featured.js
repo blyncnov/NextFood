@@ -92,7 +92,7 @@ export const FeaturedRows = styled.div`
   }
 
   @media (max-width: 768px) {
-    padding: 2em 1em;
+    padding: 1em;
 
     .separated {
       padding: 2em;
