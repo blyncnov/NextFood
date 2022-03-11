@@ -95,13 +95,20 @@ export const FeaturedRows = styled.div`
     .placement {
       display: flex;
       flex-direction: column;
-      align-items: flex-end;
     }
 
     .placement p {
       color: grey;
       font-weight: 400;
       font-size: 14px;
+    }
+
+    .start {
+      align-items: flex-start;
+    }
+
+    .end {
+      align-items: flex-end;
     }
   }
 `;

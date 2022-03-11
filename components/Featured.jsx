@@ -32,7 +32,7 @@ const Featured = () => {
                         <FeaturedRows>
                             <div>
                                 <div className="feature__container">
-                                    <div className="placement">
+                                    <div className="placement end">
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
                                     </div>
@@ -41,7 +41,7 @@ const Featured = () => {
                                 <br />
 
                                 <div className="feature__container">
-                                    <div className="placement">
+                                    <div className="placement end">
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
                                     </div>
@@ -60,7 +60,7 @@ const Featured = () => {
 
                         <FeaturedRows>
                             <div>
-                                <div className="feature__container secondp">
+                                <div className="feature__container start">
                                     <RiCupFill style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#FFCB03", clipPath: "circle()" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
@@ -70,7 +70,7 @@ const Featured = () => {
                                 </div>
                                 <br />
 
-                                <div className="feature__container secondp">
+                                <div className="feature__container start">
                                     <MdFoodBank style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#FFCB03", clipPath: "circle()" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
