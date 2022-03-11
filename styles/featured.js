@@ -30,7 +30,7 @@ export const FeaturedContainerColumn = styled.div`
 
   .featured__text h4 {
     font-weight: 500;
-    color: #f2ad44;
+    color: #33c1ae;
   }
 
   .featured__text p {

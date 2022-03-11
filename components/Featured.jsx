@@ -36,7 +36,7 @@ const Featured = () => {
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
                                     </div>
-                                    <BiDrink style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#F2AD44", clipPath: "circle()" }} />
+                                    <BiDrink style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#33C1AE", clipPath: "circle()" }} />
                                 </div>
                                 <br />
 
@@ -45,7 +45,7 @@ const Featured = () => {
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
                                     </div>
-                                    <GiDrinking style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "blue", clipPath: "circle()" }} />
+                                    <GiDrinking style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#33C1AE", clipPath: "circle()" }} />
                                 </div>
                             </div>
                         </FeaturedRows>
@@ -61,7 +61,7 @@ const Featured = () => {
                         <FeaturedRows>
                             <div>
                                 <div className="feature__container secondp">
-                                    <RiCupFill style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "red", clipPath: "circle()" }} />
+                                    <RiCupFill style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#33C1AE", clipPath: "circle()" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>
@@ -71,7 +71,7 @@ const Featured = () => {
                                 <br />
 
                                 <div className="feature__container secondp">
-                                    <MdFoodBank style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "green", clipPath: "circle()" }} />
+                                    <MdFoodBank style={{ fontSize: "3em", color: "white", padding: ".2em", backgroundColor: "#33C1AE", clipPath: "circle()" }} />
                                     <div className="placement">
                                         <h4>Whiskey Sour</h4>
                                         <p>It still lives out that spirit today .</p>

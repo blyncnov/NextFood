@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+// export const NavigationContainerPlus = styled.div`
+//   width: 100%;
+//   background-color: transparent;
+//   position: relative;
+//   /* height: 80px; */
+// `;
+
 export const NavigationContainer = styled.div`
   width: 100%;
   background-color: transparent;
