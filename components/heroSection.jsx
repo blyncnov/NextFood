@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 import { TiMediaPlay } from "react-icons/ti";
 
-import Bg from "../public/assets/images/1.png"
+import Banner from "../public/assets/banner2.jpg"
 
 
 
@@ -36,8 +36,7 @@ const HeroSection = () => {
                     <HeroContainerRow>
                         <motion.div
                             animate={{
-                                rotate: [90, 360],
-                                scale: [1, 1.01, 1.01, 1, 1],
+                                y: [0, -10, 0],
                             }}
                             transition={{
                                 duration: 5,
@@ -47,10 +46,7 @@ const HeroSection = () => {
                                 repeatDelay: 0
                             }}
                         >
-                            <div className="image__position">
-                                <Image layout="responsive" src={Bg} alt="banner image" />
-
-                            </div>
+                            <Image layout="responsive" src={Banner} alt="banner image" />
                         </motion.div>
                     </HeroContainerRow>
                 </HeroContainerColumn>
