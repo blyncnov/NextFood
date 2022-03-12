@@ -25,7 +25,7 @@ export const ServicesRows = styled.div`
   width: 100%;
   flex-basis: ${({ wide }) => (wide ? "60%" : "40%")};
   background-color: ${({ wide }) => (wide ? "transparent" : "transparent")};
-  padding: 0.5em;
+  padding: 0.2em 0.5em;
   border-radius: 4px;
 
   h4 {
