@@ -26,6 +26,7 @@ export const FeaturedContainerColumn = styled.div`
   .featured__text h1 {
     margin: 0.2em 0;
     font-size: 2rem;
+    color: #253276;
   }
 
   .featured__text h4 {
@@ -81,7 +82,7 @@ export const FeaturedRows = styled.div`
     font-size: 16px;
     margin: 0.5em 0;
     text-align: start;
-    color: black;
+    color: #253276;
     font-weight: 400;
     font-family: Jost, Arial, Helvetica, sans-serif;
   }
