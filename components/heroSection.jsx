@@ -1,7 +1,11 @@
+import Image from "next/image"
+
+import { motion } from 'framer-motion'
+
 import { TiMediaPlay } from "react-icons/ti";
 
-import Bg from "../public/assets/backgrounds/hero-image.jpg"
-import Image from "next/image"
+import Bg from "../public/assets/images/1.png"
+
 
 
 // Navigation Styles
@@ -30,7 +34,24 @@ const HeroSection = () => {
                         </div>
                     </HeroContainerRow>
                     <HeroContainerRow>
-                        <Image layout="responsive" src={Bg} alt="banner image" />
+                        <motion.div
+                            animate={{
+                                rotate: [90, 360],
+                                scale: [1, 1.01, 1.01, 1, 1],
+                            }}
+                            transition={{
+                                duration: 5,
+                                ease: "easeInOut",
+                                times: [0, 0.2, 0.5, 0.8, 1],
+                                repeat: 0,
+                                repeatDelay: 0
+                            }}
+                        >
+                            <div className="image__position">
+                                <Image layout="responsive" src={Bg} alt="banner image" />
+
+                            </div>
+                        </motion.div>
                     </HeroContainerRow>
                 </HeroContainerColumn>
             </HeroContainer>

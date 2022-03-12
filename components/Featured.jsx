@@ -1,12 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
+
+import { motion } from 'framer-motion';
+
 import { RiCupFill } from "react-icons/ri";
 import { BiDrink } from 'react-icons/bi'
 import { GiDrinking } from 'react-icons/gi'
 import { MdFoodBank } from 'react-icons/md'
 
 
-import FeaturedPicture from "../public/assets/images/drinks.webp"
+import FeaturedPicture from "../public/assets/images/3.png"
 
 
 import {
@@ -53,10 +56,25 @@ const Featured = () => {
                         </FeaturedRows>
 
                         <FeaturedRows className="separated">
-                            <Image
-                                layout="responsive"
-                                src={FeaturedPicture}
-                                alt="banner image" />
+
+                            <motion.div
+                                animate={{
+                                    rotate: [90, 360],
+                                    scale: [1, 1.01, 1.01, 1, 1],
+                                }}
+                                transition={{
+                                    duration: 5,
+                                    ease: "easeInOut",
+                                    times: [0, 0.2, 0.5, 0.8, 1],
+                                    repeat: 0,
+                                    repeatDelay: 0
+                                }}
+                            >
+                                <Image
+                                    layout="responsive"
+                                    src={FeaturedPicture}
+                                    alt="banner image" />
+                            </motion.div>
                         </FeaturedRows>
 
                         <FeaturedRows>
