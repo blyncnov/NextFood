@@ -43,6 +43,10 @@ export const ServicesRows = styled.div`
     color: #ffcb03;
   }
 
+  .service__path p {
+    font-weight: 600;
+  }
+
   p {
     color: #151a3e;
     font-size: 16px;
