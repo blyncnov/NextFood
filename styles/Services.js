@@ -10,7 +10,7 @@ export const ServicesColumn = styled.div`
   margin: 0 auto;
   display: flex;
   gap: 1em;
-  padding: 1em;
+  padding: .5em;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
@@ -26,7 +26,7 @@ export const ServicesRows = styled.div`
   width: 100%;
   flex-basis: ${({ wide }) => (wide ? "60%" : "40%")};
   background-color: ${({ wide }) => (wide ? "transparent" : "transparent")};
-  padding: 0.5em;
+  padding: 0.2em 0.5em;
   border-radius: 4px;
 
   h4 {
