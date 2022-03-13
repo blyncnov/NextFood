@@ -10,7 +10,7 @@ export const ServicesColumn = styled.div`
   margin: 0 auto;
   display: flex;
   gap: 1em;
-  padding: .5em;
+  padding: 0.5em;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   /* box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; */
@@ -51,6 +51,7 @@ export const ServicesRows = styled.div`
 
   p {
     color: #151a3e;
+    font-size: 16px;
   }
 
   button {
@@ -82,6 +83,11 @@ export const ServicesRows = styled.div`
 
   @media (max-width: 768px) {
     flex-basis: 100%;
+  }
+
+  p {
+    color: #151a3e;
+    font-size: 12px;
   }
 `;
 
