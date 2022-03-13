@@ -52,6 +52,7 @@ export const ServicesRows = styled.div`
   p {
     color: #151a3e;
     font-size: 16px;
+    font-weight: 400;
   }
 
   button {
@@ -88,6 +89,7 @@ export const ServicesRows = styled.div`
   p {
     color: #151a3e;
     font-size: 12px;
+    font-weight: 400;
   }
 `;
 
