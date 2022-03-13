@@ -18,6 +18,7 @@ export const ServicesColumn = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
+    padding: 1em 0.3em;
   }
 `;
 

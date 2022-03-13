@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 
 import Showcase from "../public/assets/images/about-image-2.svg"
@@ -8,6 +8,7 @@ import {
     ServicesColumn,
     ServicesRows
 } from "../styles/Services"
+
 
 const Services = () => {
     return (
@@ -25,7 +26,9 @@ const Services = () => {
                         <p>The main thrust is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables
                             led by subject matter experts. The main thrust is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel.</p>
                         <br />
-                        <button>Learn More</button>
+                        <Link href="/" passHref={true}>
+                            <button>Learn More</button>
+                        </Link>
                     </ServicesRows>
 
                     <ServicesRows >
