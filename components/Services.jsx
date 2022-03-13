@@ -18,7 +18,7 @@ const Services = () => {
 
                     <ServicesRows wide>
                         <div className="service__path">
-                            <h1>Services</h1>
+                            <h2>Services</h2>
                         </div>
                         <br />
                         <h4>Brilliant Toolkit to Build Nextgen Website Faster.</h4>

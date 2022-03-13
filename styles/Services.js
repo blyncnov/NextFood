@@ -28,6 +28,8 @@ export const ServicesRows = styled.div`
   background-color: ${({ wide }) => (wide ? "transparent" : "transparent")};
   padding: 0.2em 0.5em;
   border-radius: 4px;
+  /* align-items: center;
+  justify-content: space-between; */
 
   h4 {
     font-size: 2rem;
@@ -35,16 +37,7 @@ export const ServicesRows = styled.div`
   }
 
   .service__path {
-    clip-path: polygon(
-      0% 0%,
-      100% 0%,
-      100% 75%,
-      75% 75%,
-      75% 100%,
-      50% 75%,
-      0% 75%
-    );
-    padding: 1.5em 1em;
+    padding: 0.5em 1em;
     background-color: #151a3e;
     color: white;
   }
