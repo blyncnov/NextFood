@@ -38,9 +38,9 @@ export const ServicesRows = styled.div`
 
   .service__path {
     border-radius: 0 4px 4px 0;
-    padding: 0.5em 1em;
-    background-color: #151a3e;
-    color: white;
+    padding: 0.5em 0;
+    background-color: white;
+    color: #ffcb03;
   }
 
   p {
