@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Showcase from "../public/assets/images/about-image-2.svg"
+import Showcase from "../public/assets/images/kitchen.jpg"
 
 import {
     ServicesContainer,
