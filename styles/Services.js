@@ -9,6 +9,9 @@ export const ServicesColumn = styled.div`
   max-width: 90%;
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: ${({ reverse }) => (reverse ? "row-reverse" : "row")};
   gap: 1em;
   padding: 0.5em;
   background-color: #fff;
@@ -17,7 +20,7 @@ export const ServicesColumn = styled.div`
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: ${({ reverse }) => (reverse ? "column" : "column")};
     padding: 1em 0.3em;
   }
 `;
@@ -37,14 +40,15 @@ export const ServicesRows = styled.div`
   }
 
   .service__path {
-    border-radius: 0 4px 4px 0;
-    padding: 0.5em 0;
-    background-color: white;
-    color: #ffcb03;
+    border-radius: 4px;
+    padding: 0.5em;
+    background-color: #090b24;
+    color: white;
   }
 
   .service__path p {
     font-weight: 600;
+    color: white;
   }
 
   p {
