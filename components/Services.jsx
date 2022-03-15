@@ -18,7 +18,7 @@ const Services = () => {
                 <ServicesColumn>
                     <ServicesRows wide>
                         <div className="service__path">
-                            <h2>Are You Hungry , huh ?</h2>
+                            <h2>Vulnerable business applications</h2>
                         </div>
                         <br />
                         <h4>Brilliant Toolkit to Build Nextgen Website Faster.</h4>
@@ -41,7 +41,7 @@ const Services = () => {
                 <ServicesColumn reverse>
                     <ServicesRows wide>
                         <div className="service__path">
-                            <h2>Are You Hungry , huh ?</h2>
+                            <h2>Vulnerable business applications</h2>
                         </div>
                         <br />
                         <h4>Brilliant Toolkit to Build Nextgen Website Faster.</h4>

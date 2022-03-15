@@ -42,13 +42,17 @@ export const ServicesRows = styled.div`
   .service__path {
     border-radius: 4px;
     padding: 0.5em;
-    background-color: #090b24;
-    color: white;
+    background-color: #eee;
+    color: #151A3E;
+  }
+
+    .service__path h2 {
+    font-size: 1.2rem;
   }
 
   .service__path p {
     font-weight: 600;
-    color: white;
+ 
   }
 
   p {
