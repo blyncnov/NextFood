@@ -101,6 +101,10 @@ export const ServicesRows = styled.div`
   h4 {
     font-size: 1.8rem;
   }
+
+      .service__path h2 {
+    font-size: .9rem;
+  }
 `;
 
 export default ServicesContainer;
