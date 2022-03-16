@@ -24,7 +24,7 @@ h1{
 
 @media (max-width: 768px) {
 h1{
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 }
 `
@@ -50,18 +50,21 @@ line-height: 22px;
 h2{
     margin: 1em 0;
     color: #253276;
+     
+
 }
 
 p{
     opacity: 0.8;
     color: #253276;
+    font-size: 14px;
 }
 
 @media (max-width: 768px) {
 
 
     h2{
-    font-size: 1.5em;
+    font-size: 1.2rem;
 }
 }
 `

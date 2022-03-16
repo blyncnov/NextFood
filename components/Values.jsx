@@ -14,7 +14,7 @@ const Values = () => {
             <ValueContainer>
                 <ValueContainerColumn>
                     <ValueContainerRows>
-                        <h1>Latest nextFood features</h1>
+                        <h1>Latest NextFood features</h1>
                         <ValueContainerInner>
                             <ValueContainerInnerFlex>
                                 <div>

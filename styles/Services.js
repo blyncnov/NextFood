@@ -99,7 +99,7 @@ export const ServicesRows = styled.div`
   }
 
   h4 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
       .service__path h2 {
