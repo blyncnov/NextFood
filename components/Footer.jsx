@@ -9,7 +9,7 @@ const Values = () => {
             <FooterContainer>
                 <h5>NextFood</h5>
                 <h6>@2022 Designed by <a
-                    href="https/blyncnov">Blyncnov</a></h6>
+                    href="https://blyncnov.com">Blyncnov</a></h6>
             </FooterContainer>
         </>
     )
