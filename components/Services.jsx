@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-// import Showcase from "../public/assets/images/kitchen.jpg"
-import Showcase2 from "../public/assets/images/3.png"
+import Showcase from "../public/assets/images/kitchen.jpg"
+import Showcase2 from "../public/assets/images/hero.jpg"
 
 import {
     ServicesContainer,
@@ -32,7 +32,7 @@ const Services = () => {
                     </ServicesRows>
 
                     <ServicesRows >
-                        <Image layout="responsive" src={Showcase2} alt="showcase" />
+                        <Image layout="responsive" src={Showcase} alt="showcase" />
                     </ServicesRows>
 
                 </ServicesColumn>
