@@ -4,6 +4,8 @@ import Head from "next/head";
 import Header from "../components/header";
 import Featured from "../components/Featured";
 import Services from "../components/Services";
+import Values from "../components/Values";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       </Head>
       <Header />
       <Featured />
+       <Values />
       <Services />
+      <Footer/>
     </>
   );
 }
